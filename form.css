@@ -1,0 +1,112 @@
+.container{
+background-color: rgba(228, 226, 226, 0.941);
+box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+width: 930px;
+height: 570px;
+margin: 50px auto;
+display: flex;
+border-radius: 10px;
+overflow: hidden;
+}
+
+
+.imagem{
+    margin: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+img{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+   
+    width: 62%;
+    padding: 130px 80px;
+}
+
+label{
+    display: flex;
+    color:rgb(147, 147, 147);
+    font-size: 20px;
+    pointer-events:none;
+    transition: .5s;    
+}
+
+label:focus{
+    top:25px;
+}
+
+input{
+    margin-bottom: 20px;
+    background:none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+select{
+    background-color: rgb(143, 142, 142);
+    margin-bottom: 25px;
+    appearance: none;
+    border: none;
+    outline: none;
+    width:18rem;
+    height: 3rem;
+    padding: 0 4em 0 1em;
+    color: #fff;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+option{
+    color:#fff;
+}
+
+.botao{
+    background-color: rgba(255,22,22,0.9);
+    border: none;
+    border-radius:10px;
+    padding: 15px;
+    width: 50%;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+p{
+
+    font-size: 18px;
+    align-items: center;
+}
+
+
+a{
+    color: rgb(255, 36, 36);
+    font-size: 19px;
+}
+
+
+.container form .mesagem{
+    margin: 10px 0;
+    display: block;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+}

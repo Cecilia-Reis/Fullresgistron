@@ -1,0 +1,73 @@
+
+.login{
+    background-color: rgba(245, 244, 244, 0.941);
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    padding: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    width: 500px;
+    color: #fff;
+}
+
+.teste{
+    width: 12rem;
+    height: 1rem;
+}
+
+img{
+    width:15rem;
+    height:11rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+  
+
+}
+
+.tela{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-content: flex-end; 
+}
+
+input{
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.botao{
+    background-color: rgba(255,22,22,0.9);
+    border: none;
+    border-radius:10px;
+    padding: 15px;
+    width: 50%;
+    font-size: 18px;
+    color: #fff;
+}
+
+.botao:hover{
+    background-color: rgb(214, 65, 65);
+    cursor: pointer;
+}
+
+a{
+    color: rgb(255, 36, 36);
+    font-size: 20px;
+}
+
+
+form .mensagem{
+    margin:10px;
+    padding:15px;
+    display:block;
+    background:red;
+    color:#fff;
+    border-radius:5px;
+    font-size:18px;
+}

@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Montserrat',sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+:root{
+    --cor-texto: #121212;
+    --cor-texto-branco: #FEFEFE;
+    --fundo-header: #ed2709;
+    --altura-menu: 6rem;
+  }
+  
+ body{
+    color: var(-dark);
+    background: var(--white);
+}
+  
+  .navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30ox;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+    width: 100%;
+    background-color: var(--white);
+    transition:all 0.5s;
+    z-index: 9000;
+}
+
+.logo-img{
+    width: 90%;
+}
+
+.navigation ul{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.navigation ul li a{
+    color: var(--dark);
+    font-size: 17px;
+    font-weight: 500;
+    transition:all 0.5s;
+}
+
+.navigation ul li a:hover{
+    color: var(--red);
+}
+
+.navigation a i{
+    text-decoration:none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+
+.box-search{
+    margin-left:40rem;
+    background-color: #c9c9cb;
+    width: 300px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search{
+    all: unset;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  
+}
+
+table{
+    margin: 10rem;
+    width:80%;
+    padding:15px;
+    line-height: 25px;
+    text-decoration: none;
+  
+}
+
+thead tbody{
+    display: block;
+    overflow-x: scroll;
+
+}
+
+tbody{
+    height: 100px;
+
+}
+
+th{
+    border: 1px solid;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+}
+
+td{
+    border: 2px solid rgb(214, 214, 214);
+    padding: 10px;
+}
+
+
+.editar{
+    color:#fff;
+    background-color: rgba(22, 107, 255, 0.9);
+    border: none;
+    border-radius:15px;
+    padding: 10px;
+    width: 45%;
+ 
+   
+}
+
+.deleta{
+  color:#fff;
+  background-color: rgba(247, 48, 34, 0.905);
+  border: none;
+  border-radius:10px;
+  padding: 10px;
+  width: 45%;
+}
